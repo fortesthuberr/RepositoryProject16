@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    color: white;
+}
+
+.meta{
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+
+}
+
+.background{
+    background-image: url(/781487acf5bc4225205aa3b0752d62f0303896ec.jpg);
+    background-size: cover;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}

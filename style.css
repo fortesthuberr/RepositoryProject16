@@ -2,21 +2,35 @@ body{
     margin: 0;
     color: white;
 }
-
-.meta{
-    display: flex;
-    justify-content: center;
-    gap: 96px;
-
-}
-
 .background{
     background-image: url(/781487acf5bc4225205aa3b0752d62f0303896ec.jpg);
     background-size: cover;
+    
 }
 .title{
+    
+    
+}
+.gind{
+    flex: auto;
+    justify-content: center;
+}
+.tunpl{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.tinker{
+    display: flex;
+    gap: 50px;
+}
+.kinder{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+}
+.zxc{
+    background-color: black;
+    margin-left: 221px;
+     display: flex;
+    justify-content: space-between;
 }

@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    color: white;
+
 }
 .background{
     background-image: url(/781487acf5bc4225205aa3b0752d62f0303896ec.jpg);
@@ -33,4 +33,16 @@ body{
     margin-left: 221px;
      display: flex;
     justify-content: space-between;
+}
+.market{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 150px;
+}
+.imageeg{
+    width: 250px;
+}
+.card{
+    border: solid black 1px;
 }

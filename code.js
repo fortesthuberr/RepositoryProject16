@@ -1,7 +1,7 @@
 let a = [
     
         {
-    name: 'Стол',
+    name: 'table',
     material: 'Клён',
     price: 24000,
     size: '2m',
@@ -10,7 +10,7 @@ let a = [
 
     },
      {
-    name: 'Стол для компьютера',
+    name: 'computer_table',
     material: 'дуб',
     price: 12000,
     size: '2m',
@@ -19,7 +19,7 @@ let a = [
 
     },
      {
-    name: 'Стол для игр в карты',
+    name: 'card_game_table',
     material: 'берёза',
     price: 55000,
     size: '1,5m',
@@ -28,7 +28,7 @@ let a = [
 
     },
      {
-    name: 'туьбочка',
+    name: 'bedside_table',
     material: 'Клён',
     price: 24000,
     size: '2m',
@@ -37,7 +37,7 @@ let a = [
 
     },
      {
-    name: 'парта школьная',
+    name: 'School_desk',
     material: 'дуб',
     price: 13000,
     size: '2m',

@@ -1,7 +1,7 @@
 let a = [
     
         {
-    name: 'Стол',
+    name: 'table',
     material: 'Клён',
     price: 24000,
     size: '2m',
@@ -10,7 +10,7 @@ let a = [
 
     },
      {
-    name: 'Стол для компьютера',
+    name: 'computer_table',
     material: 'дуб',
     price: 12000,
     size: '2m',
@@ -19,7 +19,7 @@ let a = [
 
     },
      {
-    name: 'Стол для игр в карты',
+    name: 'card_game_table',
     material: 'берёза',
     price: 55000,
     size: '1,5m',
@@ -28,7 +28,7 @@ let a = [
 
     },
      {
-    name: 'туьбочка',
+    name: 'bedside_table',
     material: 'Клён',
     price: 24000,
     size: '2m',
@@ -37,7 +37,7 @@ let a = [
 
     },
      {
-    name: 'парта школьная',
+    name: 'School_desk',
     material: 'дуб',
     price: 13000,
     size: '2m',
@@ -48,7 +48,40 @@ let a = [
 ]
 
 
-let parametr = location.search.replace('?parametr=' '')
+let parametr = location.search.replace('?parametr=', "")
 
-let name = document.getElementById('name')
+let productData
+
+for (let i = 0; i < a.length; i++){
+    if (a[i].name == parametr){
+        productData = a[i]
+        console.log(productData)
+    }
+}
+
+let name = document.getElementById("name")
+
+
+let material = document.getElementById("material")
+
+
+let price = document.getElementById("price")
+
+
+let size = document.getElementById("size")
+
+
+let type = document.getElementById("type")
+
+
+let productimage = document.getElementById("productimage")
+
+
+
+
 name.innerHTML = parametr
+price.innerHTML = productData.price 
+material.innerHTML = productData.material
+// size.innerHTML = productData.size
+type.innerHTML = productData.type
+productimage.src = productData.image
